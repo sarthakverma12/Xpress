@@ -16,41 +16,41 @@ After activating your virtual environment and configuring your database from set
 ## Screenshots
 
 1. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss1.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss1.png" align="middle">
    </p>
 
 2. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss2.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss2.png" align="middle">
    </p>
 
 3. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss3.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss3.png" align="middle">
    </p>
 
 4. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss4.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss4.png" align="middle">
    </p>
 
 5. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss5.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss5.png" align="middle">
    </p>
 
 6. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss6.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss6.png" align="middle">
    </p>
 
 7. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss7.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss7.png" align="middle">
    </p>
 
 8. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss8.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss8.png" align="middle">
    </p>
 
 9. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss9.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss9.png" align="middle">
    </p>
 
 10. <p align="center">
-  <img src="https://github.com/sarthakverma12/Xpress/tree/master/screenshots/ss10.png"align="middle">
+  <img src="https://github.com/sarthakverma12/Xpress/blob/master/screenshots/ss10.png" align="middle">
    </p>
