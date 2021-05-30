@@ -5,7 +5,7 @@
 ![version](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## About
-This app is created using Django, Postgres and Bootsrap. It is a simple social media app where creator's can post content and critics can review it.
+This app is created using Django, Postgres and Bootsrap. It is a simple social media app where creator's can post content and critics can review it. Creators can edit and delete there own posts and can see the posts of all the creators. Reviewers can view all the posts and review them.
 
 ## Instructions
 After activating your virtual environment and configuring your database from settings.py file follow these steps:
