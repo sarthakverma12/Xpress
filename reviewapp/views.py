@@ -31,7 +31,7 @@ def login2(request):
             try:
                 check = ReviewUser.objects.get(user=user)
                 auth_login(request, user)
-                return redirect("viewfeed")
+                return redirect("rviewfeed")
             except:
                 pass
         messages.error(request, "Username or password wrong")

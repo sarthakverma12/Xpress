@@ -12,4 +12,4 @@ urlpatterns = [
     path('editpost/<int:postid>', views.editpost, name='editpost'),
     path('deletepost/<int:postid>', views.deletepost, name='deletepost'),
     path('postreviews/<int:postid>', views.postreviews, name='postreviews'),
-]
+]  +  static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
