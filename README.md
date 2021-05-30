@@ -4,6 +4,9 @@
 ![version](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![version](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+## About
+This app is created using Django, Postgres and Bootsrap. It is a simple social media app where creator's can post content and critics can review it.
+
 ## Instructions
 After activating your virtual environment and configuring your database from settings.py file follow these steps:
 1. Enter into this project's directory from your terminal
