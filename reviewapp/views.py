@@ -5,12 +5,19 @@ from django.conf import settings
 from django.http import HttpResponse
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as auth_login
-from postapp.models import Post
+from postapp.models import Post, PostUser
 from django.contrib.auth.decorators import login_required
 from .models import Review, ReviewUser
+from django.urls import reverse
 # Create your views here.
 
 def register2(request):
+    if request.user.is_authenticated:
+        try:
+            check = PostUser.objects.get(user=request.user)
+            return redirect(reverse('viewfeed'))
+        except:
+            return redirect(reverse('rviewfeed'))
     if request.method == 'POST':
         form = NewReviewerForm(request.POST)
         if form.is_valid():
@@ -24,6 +31,12 @@ def register2(request):
     return render(request,'register2.html', context)     
 
 def login2(request):
+    if request.user.is_authenticated:
+        try:
+            check = PostUser.objects.get(user=request.user)
+            return redirect(reverse('viewfeed'))
+        except:
+            return redirect(reverse('rviewfeed'))
     if request.method == 'POST':
         form = AuthenticationForm(data=request.POST)
         if form.is_valid():

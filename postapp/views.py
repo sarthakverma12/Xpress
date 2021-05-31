@@ -8,20 +8,26 @@ from django.contrib.auth import login as auth_login
 from .models import Post, PostUser
 from django.contrib.auth.decorators import login_required
 from reviewapp.models import Review
-from reviewapp.views import rviewfeed
 from django.contrib import messages
+from django.urls import reverse
 # Create your views here.
 
 def index(request):
+    if request.user.is_authenticated:
+        try:
+            check = PostUser.objects.get(user=request.user)
+            return redirect(reverse('viewfeed'))
+        except:
+            return redirect(reverse('rviewfeed'))
     if request.method=='GET':
         return render(request, 'index.html')
 def register(request):
     if request.user.is_authenticated:
         try:
             check = PostUser.objects.get(user=request.user)
-            return redirect('viewfeed')
+            return redirect(reverse('viewfeed'))
         except:
-            return redirect(rviewfeed)
+            return redirect(reverse('rviewfeed'))
     if request.method == 'POST':
         form = NewUserForm(request.POST)
         if form.is_valid():
@@ -38,9 +44,9 @@ def login(request):
     if request.user.is_authenticated:
         try:
             check = PostUser.objects.get(user=request.user)
-            return redirect('viewfeed')
+            return redirect(reverse('viewfeed'))
         except:
-            return redirect(rviewfeed)
+            return redirect(reverse('rviewfeed'))
     if request.method == 'POST':
         form = AuthenticationForm(data=request.POST)
         if form.is_valid():
