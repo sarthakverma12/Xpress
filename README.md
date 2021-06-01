@@ -13,7 +13,7 @@ After activating your virtual environment and configuring your database from set
 2. Enter the following command
         pip install -r requirements.txt
 3. To run the server enter the following command\
-        python manage.py runserver
+        gunicorn socialmedia.wsgi
 4. Open localhost:8000 in your browser to open the home page of our website
 
 ## Screenshots
